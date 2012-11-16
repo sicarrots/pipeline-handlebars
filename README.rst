@@ -10,9 +10,12 @@ It basically compiles and appends to the window.JST JSON array the template that
 
 Installation
 ~~~~~~~~~~~~
+Add repository url to your requirements or buildout.cfg, then run
 .. code-block:: sh
-
-    pip install django-pipeline-handlebars
+    pip install -r requirements
+or
+.. code-block:: sh
+    buildout
 
 Add these lines in your django `settings.py`:
 
