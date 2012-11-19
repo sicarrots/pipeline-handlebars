@@ -8,7 +8,7 @@ class HandlebarsCompiler(SubProcessCompiler):
     output_extension = 'js'
 
     def match_file(self, filename):
-        return filename.endswith('.hbs')
+        return filename.endswith('.html')
 
     def compile_file(self, infile, outfile, outdated=False, force=False):
         command = "%s %s -f %s" % (

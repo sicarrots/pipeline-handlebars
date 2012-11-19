@@ -30,7 +30,7 @@ Add these lines in your django `settings.py`:
         'application': {
             'source_filenames': (
             	# Your other JS files...
-                'path/to/your/templates/*.hbs',#save your handlebars templates with hbs extension
+                'path/to/your/templates/*.html',#save your handlebars templates with html extension
             ),
             'output_filename': 'js/application.js'
         }
